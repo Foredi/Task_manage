@@ -14,4 +14,4 @@ COPY task/ /app/task/
 
 EXPOSE 5000
 
-CMD ["python", "manage.py", "runserver"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:5000"]
